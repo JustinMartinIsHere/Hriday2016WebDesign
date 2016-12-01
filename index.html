@@ -3,19 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Hridhay Mahesh | Home</title>
+    <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
   <body>
-    <!-- NOTE: top fixed navbar -->
+    <!-- NOTE: top fixed navbar-->
     <nav class="fixed-nav-bar">
-      <ul class="topnav">
-        <li><a class="navLogo" href="#home"><b>Hridhay Mahesh</b></a></li>
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
+      <ul class="topnav" id="myTopnav">
+        <li><a href="#home"><b>Hridhay Mahesh</b></a></li>
+        <li><a class="active" href="#news">News</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li class="right"><a href="#about">About</a></li>
+        <li><a href="#about">About</a></li>
+        <li class="icon">
+          <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+        </li>
       </ul>
     </nav>
     <!-- NOTE: Mid section 1st -->
@@ -23,9 +26,7 @@
       <img src="pcimage.png" class="mainImg"/>
     </div>
     <!-- NOTE: About section 2nd -->
-    <div class="aboutDisplay" align="center">
 
-    </div>
     <script type="text/javascript" src="navbar.js"></script>
   </body>
 </html>
